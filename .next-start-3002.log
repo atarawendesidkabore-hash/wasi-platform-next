@@ -1,0 +1,1331 @@
+
+> wasi-platform@0.1.0 start
+> next start --hostname 127.0.0.1 --port 3002
+
+  ▲ Next.js 14.2.33
+  - Local:        http://127.0.0.1:3002
+  - Network:      http://127.0.0.1:3002
+
+ ✓ Starting...
+ ✓ Ready in 940ms
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\pages\_document.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\next.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\lib\start-server.js
+- C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\cli\next-start.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\eu\OneDrive\Desktop\WASI\wasi-platform\.next\server\webpack-runtime.js:198:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\.next\\server\\pages\\_document.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\next.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js',
+    'C:\\Users\\eu\\OneDrive\\Desktop\\WASI\\wasi-platform\\node_modules\\next\\dist\\cli\\next-start.js'
+  ]
+}
+^C^C

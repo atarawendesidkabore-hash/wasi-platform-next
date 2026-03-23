@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/refresh-rates",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/refresh-indices",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
