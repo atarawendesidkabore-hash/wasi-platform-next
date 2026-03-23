@@ -5,7 +5,8 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { createSupabaseBrowserClient } from "@/lib/supabase/client";
+
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -18,7 +19,14 @@ export default function LoginPage() {
     setError("");
     setLoading(true);
 
+    // Demo mode — no Supabase configured
+    if (!SUPABASE_URL) {
+      window.location.href = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/intelligence`;
+      return;
+    }
+
     try {
+      const { createSupabaseBrowserClient } = await import("@/lib/supabase/client");
       const supabase = createSupabaseBrowserClient();
       const { error: authError } = await supabase.auth.signInWithPassword({
         email,
@@ -30,7 +38,7 @@ export default function LoginPage() {
         return;
       }
 
-      window.location.href = "/intelligence";
+      window.location.href = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/intelligence`;
     } catch (caughtError) {
       setError(caughtError instanceof Error ? caughtError.message : "Erreur de connexion");
     } finally {
@@ -38,17 +46,30 @@ export default function LoginPage() {
     }
   }
 
+  function enterDemo() {
+    window.location.href = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/intelligence`;
+  }
+
   return (
     <Card>
       <CardHeader>
         <CardTitle>Connexion</CardTitle>
-        <CardDescription>Supabase Auth, session SSR et routes serverless Next.js.</CardDescription>
+        <CardDescription>
+          {SUPABASE_URL
+            ? "Supabase Auth, session SSR et routes serverless Next.js."
+            : "Mode demo — acces libre a toute la plateforme."}
+        </CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
+        {!SUPABASE_URL && (
+          <Button className="w-full" onClick={enterDemo}>
+            Entrer en mode demo
+          </Button>
+        )}
         <form className="space-y-4" onSubmit={onSubmit}>
           <Input onChange={(event) => setEmail(event.target.value)} placeholder="email@entreprise.com" type="email" value={email} />
           <Input onChange={(event) => setPassword(event.target.value)} placeholder="Mot de passe" type="password" value={password} />
-          <Button className="w-full" disabled={loading} type="submit">
+          <Button className="w-full" disabled={loading} type="submit" variant={SUPABASE_URL ? "default" : "secondary"}>
             {loading ? "Connexion..." : "Se connecter"}
           </Button>
         </form>

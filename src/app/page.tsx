@@ -16,14 +16,14 @@ export default function HomePage() {
               KYC/BCEAO depuis une seule plateforme.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link className="rounded-md bg-accent px-5 py-3 font-medium text-accentForeground transition hover:bg-[#d89d2d]" href="/register">
-                Creer un compte
+              <Link className="rounded-md bg-accent px-5 py-3 font-medium text-accentForeground transition hover:bg-[#d89d2d]" href="/intelligence">
+                Entrer dans la plateforme
               </Link>
               <Link className="rounded-md border border-border px-5 py-3 font-medium text-foreground transition hover:bg-[#122033]" href="/login">
                 Se connecter
               </Link>
-              <Link className="rounded-md border border-border px-5 py-3 font-medium text-foreground transition hover:bg-[#122033]" href="/billing">
-                Voir les offres
+              <Link className="rounded-md border border-border px-5 py-3 font-medium text-foreground transition hover:bg-[#122033]" href="/dex">
+                DEX / AFEX
               </Link>
             </div>
           </div>
