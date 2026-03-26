@@ -2,7 +2,7 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
 const PUBLIC_PAGE_PREFIXES = ["/login", "/register"];
-const PUBLIC_API_PREFIXES = ["/api/webhook"];
+const PUBLIC_API_PREFIXES = ["/api/webhook", "/api/marketplace"];
 
 function isPublicPage(pathname: string): boolean {
   return PUBLIC_PAGE_PREFIXES.some(
